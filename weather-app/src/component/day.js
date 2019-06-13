@@ -1,11 +1,10 @@
 import React, { Component } from "react";
+// let moment = require("moment")
 
-class Day extends Component {
-  render() {
-    return(
-      <h1> Day Card</h1>
-    )
-  }
+const Day = (reading) => {
+  return(
+    <h1> Day Card</h1>
+  )
 }
 
 export default Day;
