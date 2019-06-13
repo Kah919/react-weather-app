@@ -33,10 +33,10 @@ class Weeks extends Component {
 
   render() {
     return(
-      <div className="container">
-        <h1 className="display-1 jumbotron">5-Day Forecast.</h1>
-        <h5 className="display-5 text-muted">New York, US</h5>
-        <div className="row justify-content-center">
+      <div className="week-container">
+        <h1 className="description">#Sunlight Nation</h1>
+        <h5 className="description">New York, US</h5>
+        <div className="card-div">
           {this.dayCards()}
         </div>
       </div>
